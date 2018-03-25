@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="styles/defaultStyle.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <title>gitmergeTest1</title>
+  </head>
+  <body>
+    <div id="include_u" class="style_include">
+      マージ後、ここにu.htmlが読み込まれる<br>
+    </div>
+    <div id="include_h" class="style_include">
+      マージ後、ここにh.htmlが読み込まれる<br>
+    </div>
+    <script type="text/javascript">
+      $(document).ready(function() {
+         $('#include_u').load('u.html');
+      });
+      $(document).ready(function() {
+         $('#include_h').load('h.html');
+      });
+    </script>
+  </body>
+</html>
