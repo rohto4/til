@@ -13,8 +13,7 @@ public class ConnectTest {
 			Class.forName("com.mysql.jdbc.Driver").newInstance();
 			// MySQLに接続
 			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "root", "");
-			// 20180417end
-			//TODO mysql access for DBViewer and getConnection
+
 			//TODO data insert to ws_db
 			//TODO know access means
 
