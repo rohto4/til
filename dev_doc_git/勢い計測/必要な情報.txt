@@ -1,0 +1,11 @@
+----- ïKóvÇ»èÓïÒ
+Consumer Key (API Key)	r6iVfpCWyucomSZwvwNkpAErk
+Consumer Secret (API Secret)	85Wh7O6l1taGCDrIPuPL6aZPbYBPJ7kj5fOl1935uk8XuB4H5b
+Access Token 773885677507321856-8WHG76HFADH6Zn2AmqS8pHdqs2b7d3k 
+Access Token Secret S6ckJpSOklNrVVEkBTHoUhF6JTCHxUcPvOfMgt1abk0Mh
+
+(
+Access Level	Read and write (modify app permissions)
+Owner	pikoyama_coffee
+Owner ID	773885677507321856
+)

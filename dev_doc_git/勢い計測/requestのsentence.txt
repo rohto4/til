@@ -1,0 +1,10 @@
+music gameのtrendを知るため、Tweetされているmusic game関連のkeywordの数を計測するapplicationをcreateする。
+①予めsearch keywordとgenreを登録
+②計測呼び出しbatchをschedule実行
+③計測用moduleから特定期間内のkeyword hit数を算出
+④hit数を勢い指数に直してlocalのjson fileにsave
+ -- ex
+a.keywordとtweetの特徴についてanalysisする
+b.music game以外のgenreにも対応
+c.json fileをreadし、web browserにresult of analysisのdisplay
+d.keywordにrelationの高いkeywordを取得
