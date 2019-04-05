@@ -1,23 +1,8 @@
-# '''
-# Created on 2019/03/28
-# 
-# @author: Rohto
-# '''
-# 
-# from slackbot.bot import Bot
-# 
-# def main():
-#     bot = Bot()
-#     bot.run()
-# 
-# if __name__ == "__main__":
-#     print('start slackbot')
-#     main()
-# coding=utf-8
 from slackbot.bot import Bot
 from slackbot.bot import respond_to
 import tweepy
 import os
+
 
 @respond_to('searchTweet(.*)')
 def search_tweet(message, word):
